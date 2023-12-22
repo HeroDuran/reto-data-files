@@ -2,7 +2,22 @@
     {
         "id":0,
         "language":"English",
+        "languageText":"Language",
         "retoImagesUrl":"https://heroduran.github.io/reto-images/",
+        "appNameImageExtension":"appName.png",
+        "editNameBuddyText":"Edit Name and Select Buddy",
+        "nextText":"Next",
+        "saveText":"Save",
+        "saveDescriptionText":"Tap the check mark to save all team scores. If you close the app, the next time you open it back up (even on another device) your team scores will sync from cloud storage.",
+        "savedText":"Saved!",
+        "savedDecriptionText":"Team scores successfully saved to cloud storage.",
+        "resetText":"Reset",
+        "resetDecriptionText":"Tap the check mark to reset all team scores to",
+        "editTeamScoresText":"Edit Team Scores",
+        "editTeamScoresDescription":"Tap the check mark to reset all team scores. Choose a number from 1 to 9999.",
+        "scoresText":"Scores",
+        "challengeTextLimit":70,
+        "pointsLimit":4,
         "loginText":"Login",
         "emailInputText":"Email",
         "passwordInputText":"Password",
@@ -17,6 +32,9 @@
         "logoutText":"Logout",
         "accountText":"Account",
         "deleteAccountText":"Delete Account",
+        "deleteText":"Delete",
+        "deletingAccountText":"Deleting Account",
+        "accountDeletionErrorText":"Please try to login again. If able to do so, your account was NOT deleted. Retry account deletion to finalize.",
         "logoutAllDevicesText":"Logout All Devices",
         "goodbyeImageExtension":"emotionGoodbyeWave.png",
         "loggingOutText":"Logging Out",
@@ -39,13 +57,13 @@
         "retoText":"RETO!",
         "pointsText":"Points",
         "itemsText":"Items",
-        "savedText":"Saved!",
         "teamsText":"Teams",
         "rulesText":"Rules",
         "howtoplayText":"How To Play",
         "subscribeText":"Subscribe",
         "playText":"Play!",
         "editRetoText":"Edit RETO!",
+        "editRetoDescription":"‘RETO’ is a Spanish word for ‘challenge’. Specify a challenge for the losing teams to perform after one team wins the game.",
         "editPointsText":"Edit Points",
         "subscriptionWeeklyRecurrenceText":"$0.99 weekly",
         "subscriptionMonthlyRecurrenceText":"$1.99 monthly",
@@ -53,18 +71,25 @@
         "editTeamsText":"Edit Teams",
         "tipText":"Tip",
         "skipText":"Skip",
-        "skipDescriptionText":"Tap the check mark to skip this challenge.",
+        "skipDescriptionText":"Skip this challenge.",
         "homeText":"Home",
-        "homeDescriptionText":"Tap the check mark to go to the home screen.",
+        "homeDescriptionText":"Go to the home screen.",
         "pointsToText":"Points To",
         "redoText":"Redo",
         "playAgainText":"Play Again",
         "trophyText":"Trophy",
         "winnerText":"Winner!",
         "ifLostText":"If you lost",
-        "nextChallengeText":"Next challenge?",
-        "redoChallengeText":"Redo challenge?",
+        "selectLanguageText":"Select Language",
         "subscriptionDetailsArray":["Fun for all ages","Hundreds of challenges","Cancel anytime"],
+        "languages":[
+            {
+                "id":0,
+                "language":"English",
+                "languageTrophyImageExtension":"languageEnglishUSAtrophy.png",
+                "languageFlagImageExtension":"languageEnglishUSAflag.png"
+            }
+        ],
         "credits":[
             {
                 "id":0,
@@ -83,12 +108,12 @@
             {
                 "id":0,
                 "ruleTitle":"POINTS",
-                "ruleDescription":"Only players that participate in a challenge can claim its points."
+                "ruleDescription":"Any of your team members may claim the challenge points. Multiple team members may attempt to complete the challenge at the same time."
             },
             {
                 "id":1,
                 "ruleTitle":"TEAMS",
-                "ruleDescription":"There is no limit the the number of players per team."
+                "ruleDescription":"There is no limit to the number of players per team."
             },
             {
                 "id":2,
@@ -100,22 +125,7 @@
             {
                 "id":0,
                 "stepTitle":"1",
-                "stepDescription":"Insert text on game setup instructions and how to play the game including all the essential need to know steps to play the game. "
-            },
-            {
-                "id":1,
-                "stepTitle":"2",
-                "stepDescription":"There is no limit the the number of players per team. There is no limit the the number of players per team. There is no limit the the number of players per team."
-            },
-            {
-                "id":2,
-                "stepTitle":"3",
-                "stepDescription":"Only one team can claim points for a Challenge. If there's a tie, decide on a tie breaker. Only one team can claim points for a Challenge. If there's a tie, decide on a tie breaker."
-            },
-            {
-                "id":3,
-                "stepTitle":"4",
-                "stepDescription":"Insert text on game setup instructions and how to play the game including all the essential need to know steps to play the game. Insert text on game setup instructions and how to play the game including all the essential need to know steps to play the game."
+                "stepDescription":"Insert how to play instructions here."
             }
         ],
         "teams":[
@@ -240,7 +250,7 @@
                                     {
                                         "id":0,
                                         "gameTimeScreenHeader":"ALL CUP VOLUMES",
-                                        "volumeTrophyImageExtension":"genericTrophyImage.png",
+                                        "volumeTrophyImageExtension":"trophyPlasticup.png",
                                         "volumeTrophyNameText":"PLASTICUP",
                                         "volumeItems":[
                                             {
@@ -275,7 +285,7 @@
                                                 "challengeTypeImageExtension":"bolt.circle.fill",
                                                 "challengeTypeTitle":"LIGHTNING",
                                                 "challengeTypeDescription":"Complete the challenge as fast as you can.",
-                                                "challengePointValue":5,
+                                                "challengePointValue":15,
                                                 "challengeTipDescription":"Drop the cup from shoulder height.",
                                                 "challengeVideoUrl":["https://player.vimeo.com/progressive_redirect/playback/885996888/rendition/2160p/file.mp4?loc=external&log_user=0&signature=e92457734345b7e58139dbb98e97dc221a1ec2f9e2826f17030c3f0fd1ae9984","https://player.vimeo.com/progressive_redirect/playback/885996888/rendition/720p/file.mp4?loc=external&log_user=0&signature=f8f6723d8b65ddb8f52a3d4114cf71b626a25744fdcce3afcdebe8e74b1a4144","https://player.vimeo.com/progressive_redirect/playback/885996888/rendition/240p/file.mp4?loc=external&log_user=0&signature=4dd60a8f8788a42b23c1ca3fa0e9beaa8ac79aefcc1c06b1c383c95a95314171"]
                                             },
@@ -1050,8 +1060,8 @@
                                     {
                                         "id":0,
                                         "gameTimeScreenHeader":"CUPS VOL. I",
-                                        "volumeTrophyImageExtension":"genericTrophyImage.png",
-                                        "volumeTrophyNameText":"PLASTICUP",
+                                        "volumeTrophyImageExtension":"trophyPlasticup.png",
+                                        "volumeTrophyNameText":"PLASTICUP I",
                                         "volumeItems":[
                                             {
                                                 "id":0,
@@ -1085,7 +1095,7 @@
                                                 "challengeTypeImageExtension":"bolt.circle.fill",
                                                 "challengeTypeTitle":"LIGHTNING",
                                                 "challengeTypeDescription":"Complete the challenge as fast as you can.",
-                                                "challengePointValue":5,
+                                                "challengePointValue":15,
                                                 "challengeTipDescription":"Drop the cup from shoulder height.",
                                                 "challengeVideoUrl":["https://player.vimeo.com/progressive_redirect/playback/885996888/rendition/2160p/file.mp4?loc=external&log_user=0&signature=e92457734345b7e58139dbb98e97dc221a1ec2f9e2826f17030c3f0fd1ae9984","https://player.vimeo.com/progressive_redirect/playback/885996888/rendition/720p/file.mp4?loc=external&log_user=0&signature=f8f6723d8b65ddb8f52a3d4114cf71b626a25744fdcce3afcdebe8e74b1a4144","https://player.vimeo.com/progressive_redirect/playback/885996888/rendition/240p/file.mp4?loc=external&log_user=0&signature=4dd60a8f8788a42b23c1ca3fa0e9beaa8ac79aefcc1c06b1c383c95a95314171"]
                                             },
@@ -1354,8 +1364,8 @@
                                     {
                                         "id":0,
                                         "gameTimeScreenHeader":"CUPS VOL. II",
-                                        "volumeTrophyImageExtension":"genericTrophyImage.png",
-                                        "volumeTrophyNameText":"PLASTICUP",
+                                        "volumeTrophyImageExtension":"trophyPlasticup.png",
+                                        "volumeTrophyNameText":"PLASTICUP II",
                                         "volumeItems":[
                                             {
                                                 "id":0,
@@ -1656,8 +1666,8 @@
                                     {
                                         "id":0,
                                         "gameTimeScreenHeader":"CUPS VOL. III",
-                                        "volumeTrophyImageExtension":"genericTrophyImage.png",
-                                        "volumeTrophyNameText":"PLASTICUP",
+                                        "volumeTrophyImageExtension":"trophyPlasticup.png",
+                                        "volumeTrophyNameText":"PLASTICUP III",
                                         "volumeItems":[
                                             {
                                                 "id":0,
